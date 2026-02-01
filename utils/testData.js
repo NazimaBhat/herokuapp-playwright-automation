@@ -8,3 +8,10 @@ export const users = {
     password: 'wrongPassword'
   }
 };
+
+
+export const FILES = {
+  Sample_File: 'test-data/sample.txt',
+  Image_PNG: 'test-data/image.png'
+};
+
