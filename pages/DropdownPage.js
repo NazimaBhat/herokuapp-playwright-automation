@@ -16,5 +16,7 @@ export default class DropdownPage extends BasePage {
 
   async getSelectedValue() {
     return await this.page.locator(this.dropdown).inputValue();
+    
   }
+  
 }
